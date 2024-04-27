@@ -1,8 +1,5 @@
 package ru.hse.graphexample.dto;
 
-import lombok.AllArgsConstructor;
-
-//@AllArgsConstructor
 public class Task {
     String desc;
     String title;
