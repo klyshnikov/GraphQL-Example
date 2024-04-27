@@ -1,5 +1,4 @@
 type Task {
-    id: ID!,
     desc: String,
     title: String
 }

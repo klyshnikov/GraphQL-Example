@@ -4,12 +4,10 @@ import lombok.AllArgsConstructor;
 
 //@AllArgsConstructor
 public class Task {
-    String ID;
     String desc;
     String title;
 
-    public Task(String ID, String desc, String title) {
-        this.ID = ID;
+    public Task(String desc, String title) {
         this.desc = desc;
         this.title = title;
     }

@@ -23,8 +23,7 @@ public class TaskService {
 
     @MutationMapping
     public Task createTask(@Argument String desc, @Argument String title) {
-        UUID uuid = UUID.randomUUID();
-        Task createdTask = new Task(uuid.toString(), desc, title);
+        Task createdTask = new Task(desc, title);
         tasks.add(createdTask);
         return createdTask;
     }
